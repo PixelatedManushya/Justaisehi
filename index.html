@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+
+            margin: 0px;
+            padding: 0px;
+
+
+        }
+
+
+        body {
+
+            background:
+
+                radial-gradient(ellipse at 20% 10%, rgb(24, 88, 61) 0%, transparent 45%),
+                radial-gradient(ellipse at 80% 85%, rgb(32, 64, 21) 0%, transparent 45%),
+                #031927;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        .sh1 {
+
+
+            font-size: 100px;
+            text-align: center;
+
+            font-weight: 1100px;
+
+
+            font-weight: bold;
+            color: #f7f7f7;
+
+        }
+
+
+        .sbh1 {
+
+            font-size: 20px;
+            text-align: center;
+            font-family: segoe ui;
+            margin: 0px;
+
+
+            font-weight: 1100;
+            color: #D0A3BF;
+            margin-bottom: 300px;
+            color: #111;
+
+
+        }
+
+
+        .idk1 {
+
+            color: white;
+
+            font-size: 18px;
+            font-family: segoe ui;
+
+
+
+        }
+
+        .sorry {
+
+            background-color: rgb(24);
+            backdrop-filter: blur;
+            border-radius: 10px;
+
+        }
+
+        .subso {
+
+            border: 2px solid;
+            border-radius: 10px;
+
+            width: 150px;
+
+            border-color: rgb(24, 88, 61);
+            margin-top: 300px;
+            margin-left: 680px;
+        }
+
+
+
+
+        .mm {
+
+            text-align: center;
+
+            font-size: 12px;
+            text-align: center;
+            font-family: monospace;
+            margin: 0px;
+
+
+
+            color: white;
+
+
+        }
+
+        .sobox {
+
+            border: 2px solid;
+
+            border-color: #111;
+
+
+            border-radius: 8px;
+
+
+        }
+
+        .idk1 {
+
+
+            font-size: 16px;
+            text-align: center;
+            font-family: segoe ui;
+            margin: 0px;
+
+            margin-left: 250px;
+
+            max-width: 1000px;
+
+            letter-spacing: 0.5px;
+
+            line-height: 1.8;
+
+
+            color: white;
+
+
+
+        }
+
+        @media (max-width: 480px) {
+
+            .sh1 {
+                font-size: clamp(42px, 13vw, 60px);
+            }
+
+            .sbh1 {
+                font-size: 16px;
+                margin-bottom: 120px;
+            }
+
+            .subso {
+                width: 120px;
+                margin: 120px auto 0;
+            }
+
+            .mm {
+                font-size: 12px;
+            }
+
+            .idk1 {
+                width: 90%;
+                margin: 0 auto;
+                font-size: 13px;
+                line-height: 1.6;
+                overflow-wrap: anywhere;
+            }
+
+            .sobox {
+                width: 95%;
+                margin: 15px auto;
+                box-sizing: border-box;
+            }
+
+            .sorry {
+                width: 100%;
+            }
+
+        }
+    </style>
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <div class="subso">
+
+        <h1 class="mm"> I'm </h3>
+
+    </div>
+
+    <div class="sorry">
+
+        <h1 class="sh1"> SORRY </h1>
+        <h3 class="sbh1"> A 1000 Times! </h3>
+
+    </div>
+
+
+
+    <div class="idk1" id="text"></div>
+
+    <div class="sobox">
+
+        <script class="idk1">
+            const container = document.getElementById("text");
+
+            for (let i = 0; i < 1000; i++) {
+                container.textContent += "Sorry ";
+            }
+        </script>
+
+    </div>
+
+
+</body>
+
+
+
+
+
+
+</html>
